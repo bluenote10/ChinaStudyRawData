@@ -1,0 +1,1278 @@
+M001 ALL0-4     mortality ALL CAUSES AGE 0-4 (rate/1,000)
+M001
+M002 ALL5-14    mortality ALL CAUSES AGE 5-14 (stand. rate/100,000)
+M002
+M003 ALL15-34   mortality ALL CAUSES AGE 15-34 (stand. rate/100,000)
+M003
+M004 ALL0-34    mortality ALL CAUSES AGE 0-34 (stand. rate/100,000)
+M004
+M005 ALL35-69   mortality ALL CAUSES AGE 35-69 (stand. rate/1,000)
+M005
+M006 ALL70-79   mortality ALL CAUSES AGE 70-79 (stand. rate/1,000)
+M006
+M007 MEDICALb   mortality ALL MEDICAL CAUSES AGE 0-34 (stand. rate/100,000) (ICD9 001-799)
+M007
+M008 MEDICALc   mortality ALL MEDICAL CAUSES AGE 35-69 (stand. rate/1,000) (ICD9 001-799)
+M008
+M009 NONMEDb    mortality ALL NON-MEDICAL CAUSES AGE 0-34 (stand. rate/100,000) (ICD9 E800-E999)
+M009
+M010 NONMEDc    mortality ALL NON-MEDICAL CAUSES AGE 35-69 (stand. rate/100,000) (ICD9 E800-E999)
+M010
+M011 INFECTb    mortality INFECTIOUS AND PARASITIC (INCLUDING NEONATAL AND RESPIRATORY
+M011            INFECTIONS AGE 0-34 (stand. rate/100,000) (ICD9 001-139, 460-487, 771)
+M012 INFECTc    mortality INFECTIOUS AND PARASITIC (INCLUDING RESPIRATORY INFECTIONS) AGE 35-69
+M012                      (stand. rate/100,000) (ICD9 001-139, 460-487)
+M013 INTESTINb  mortality INTESTINAL INFECTIONS AGE 0-34 (stand. rate/100,000) (ICD9 001-009)
+M013
+M014 INTESTINc  mortality INTESTINAL INFECTIONS AGE 35-69 (stand. rate/100,000) (ICD9 001-009)
+M014
+M015 PULMTBb    mortality PULMONARY TUBERCULOSIS AGE 0-34 (stand. rate/100,000) (ICD9 011)
+M015
+M016 PULMTBc    mortality PULMONARY TUBERCULOSIS AGE 35-69 (stand. rate/100,000) (ICD9 011)
+M016
+M017 OTHERTBb   mortality TUBERCULOSIS OTHER THAN PULMONARY AGE 0-34 (stand. rate/100,000) (ICD9 010-018 and 137, excl 011)
+M017
+M018 OTHERTBc   mortality TUBERCULOSIS OTHER THAN PULMONARY AGE 35-69 (stand. rate/100,000) (ICD9 010-018 and 137, excl 011)
+M018
+M019 VIRALHEPb  mortality VIRAL HEPATITIS AGE 0-34 (stand. rate/100,000) (ICD9 070)
+M019
+M020 VIRALHEPc  mortality VIRAL HEPATITIS AGE 35-69 (stand. rate/100,000) (ICD9 070)
+M020
+M021 SCHISTOc   mortality SCHISTOSOMIASIS AGE 35-69 (stand. rate/100,000) (ICD9 120)
+M021
+M022 ALLCAb     mortality ALL MALIGNANT NEOPLASMS AGE 0-34 (stand. rate/100,000) (ICD9 140-208)
+M022
+M023 ALLCAc     mortality ALL MALIGNANT NEOPLASMS AGE 35-69 (stand. rate/1,000) (ICD9 140-208)
+M023
+M024 MOUTHCAc   mortality MOUTH CANCER EXCLUDING PHARYNX AGE 35-69 (stand. rate/100,000) (ICD9 140-5)
+M024
+M025 NASOPCAc   mortality NASOPHARYNX AND OTHER PHARYNX CANCER AGE 35-69 (stand. rate/100,000) (ICD9 146-9)
+M025
+M026 NPConlyc   mortality NASOPHARYNGEAL CANCER AGE 35-69 (stand. rate/100,000) (ICD9 147)
+M026
+M027 OESOPHCAc  mortality OESOPHAGEAL CANCER AGE 35-69 (stand. rate/100,000) (ICD9 150)
+M027
+M028 STOMCAc    mortality STOMACH CANCER AGE 35-69 (stand. rate/100,000) (ICD9 151)
+M028
+M029 COLRECCAc  mortality COLORECTAL CANCER AGE 35-69 (stand. rate/100,000) (ICD9 153-4)
+M029
+M030 LIVERCAb   mortality LIVER CANCER AGE 0-34 (stand. rate/100,000) (ICD9 155)
+M030
+M031 LIVERCAc   mortality LIVER CANCER AGE 35-69 (stand. rate/100,000) (ICD9 155)
+M031
+M032 PANCRSCAc  mortality PANCREAS CANCER AGE 35-69 (stand. rate/100,000) (ICD9 157)
+M032
+M033 BLADDCAc   mortality BLADDER CANCER AGE 35-69 (stand. rate/100,000) (ICD9 188)
+M033
+M034 LARYNXCAc  mortality LARYNX CANCER AGE 35-69 (stand. rate/100,000) (ICD9 161)
+M034
+M035 LUNGCAmc   mortality MALE LUNG CANCER AGE 35-69 (stand. rate/100,000) (ICD9 162)
+M035
+M036 LUNGCAfc   mortality FEMALE LUNG CANCER AGE 35-69 (stand. rate/100,000) (ICD9 162)
+M036
+M037 BREASTCAc  mortality FEMALE BREAST CANCER AGE 35-69 (stand. rate/100,000) (ICD9 174)
+M037
+M038 CERVIXCAc  mortality CERVIX CANCER (incl. ca uterus, part unspecified) AGE 35-69 (stand. rate/100,000) (ICD9 179-80)
+M038
+M039 BRAINCAc   mortality BRAIN TUMOUR (MALIGNANT OR NOT) AGE 35-69 (stand. rate/100,000) (ICD9 191, 225.0, 237.5, 239.6)
+M039
+M040 LYMPHOMAc  mortality LYMPHOMA AND MYELOMA AGE 35-69 (stand. rate/100,000) (ICD9 200-3)
+M040
+M041 LEUKEMIAb  mortality LEUKAEMIA AGE 0-34 (stand. rate/100,000) (ICD9 204-8)
+M041
+M042 LEUKEMIAc  mortality LEUKAEMIA AGE 35-69 (stand. rate/100,000) (ICD9 204-8)
+M042
+M043 ENDOCRINb  mortality ENDOCRINE, NUTRITIONAL AND METABOLIC DISEASE AGE 0-34 (stand. rate/100,000) (ICD9 240-279)
+M043
+M044 ENDOCRINc  mortality ENDOCRINE, NUTRITIONAL AND METABOLIC DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 240-279)
+M044
+M045 DIABETESc  mortality DIABETES AGE 35-69 (stand. rate/100,000) (ICD9 250)
+M045
+M046 MALNUTRIb  mortality MALNUTRITION AGE 0-34 (stand. rate/100,000) (ICD9 260-9)
+M046
+M047 MALNUTRIc  mortality MALNUTRITION AGE 35-69 (stand. rate/100,000) (ICD9 260-9)
+M047
+M048 BLOODb     mortality DISEASES OF BLOOD AND BLOOD-FORMING ORGANS AGE 0-34 (stand. rate/100,000) (ICD9 280-9)
+M048
+M049 BLOODc     mortality DISEASES OF BLOOD AND BLOOD-FORMING ORGANS AGE 35-69 (stand. rate/100,000) (ICD9 280-9)
+M049
+M050 MENTALb    mortality MENTAL DISORDERS AGE 0-34 (stand. rate/100,000) (ICD9 290-319)
+M050
+M051 MENTALc    mortality MENTAL DISORDERS AGE 35-69 (stand. rate/100,000) (ICD9 290-319)
+M051
+M052 NERVOUSb   mortality DISORDERS OF NERVOUS SYSTEM AND SENSE ORGANS AGE 0-34 (stand. rate/100,000) (ICD9 320-389)
+M052
+M053 NERVOUSc   mortality DISORDERS OF NERVOUS SYSTEM AND SENSE ORGANS AGE 35-69 (stand. rate/100,000) (ICD9 320-389)
+M053
+M054 MENINGITb  mortality MENINGITIS AGE 0-34 (stand. rate/100,000) (ICD9 036, 047, 320-2)
+M054
+M055 MENINGITc  mortality MENINGITIS AGE 35-69 (stand. rate/100,000) (ICD9 036, 047, 320-2)
+M055
+M056 EPILEPSYb  mortality EPILEPSY AGE 0-34 (stand. rate/100,000) (ICD9 345)
+M056
+M057 EPILEPSYc  mortality EPILEPSY AGE 35-69 (stand. rate/100,000) (ICD9 345)
+M057
+M058 ALLVASCb   mortality ALL VASCULAR DISEASE AGE 0-34 (stand. rate/100,000) (ICD9 390-459, excl 416-7)
+M058
+M059 ALLVASCc   mortality ALL VASCULAR DISEASE AGE 35-69 (stand. rate/1,000) (ICD9 390-459, excl 416-7)
+M059
+M060 RHEUMHDb   mortality RHEUMATIC HEART DISEASE AND FEVER AGE 0-34 (stand. rate/100,000) (ICD9 390-8)
+M060
+M061 RHEUMHDc   mortality RHEUMATIC HEART DISEASE AND FEVER AGE 35-69 (stand. rate/100,000) (ICD9 390-8)
+M061
+M062 HYPTENSc   mortality HYPERTENSIVE DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 401-5)
+M062
+M063 IHDc       mortality ISCHAEMIC HEART DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 410-4)
+M063
+M064 STROKEb    mortality CEREBROVASCULAR DISEASE AGE 0-34 (stand. rate/100,000) (ICD9 430-8)
+M064
+M065 STROKEc    mortality CEREBROVASCULAR DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 430-8)
+M065
+M066 VASC-STRb  mortality ALL VASCULAR DISEASE EXCEPT STROKE AGE 0-34 (stand. rate/100,000) (ICD9 390-459, excl 430-8 & 416-7)
+M066
+M067 VASC-STRc  mortality ALL VASCULAR DISEASE EXCEPT STROKE AGE 35-69 (stand. rate/100,000) (ICD9 390-459, excl 430-8 & 416-7)
+M067
+M068 ALLRESPb   mortality ALL RESPIRATORY DISEASE AGE 0-34 (stand. rate/100,000) (ICD9 460-519, 416-7)
+M068
+M069 ALLRESPc   mortality ALL RESPIRATORY DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 460-519, 416-7)
+M069
+M070 PNEUMONb   mortality PNEUMONIA AND OTHER RESPIRATORY INFECTIONS AGE 0-34 (stand. rate/100,000) (ICD9 460-487)
+M070
+M071 PNEUMONc   mortality PNEUMONIA AND OTHER RESPIRATORY INFECTIONS AGE 35-69 (stand. rate/100,000) (ICD9 460-487)
+M071
+M072 COPDc      mortality CHRONIC OBSTRUCTIVE PULMONARY DISEASE AND PULMONARY HEART DISEASE AGE 35-69 (stand. rate/100,000)
+M072                      (ICD9 490-6, 416-7)
+M073 DIGESTIVb  mortality ALL DIGESTIVE DISEASE AGE 0-34 (stand. rate/100,000) (ICD9 520-579)
+M073
+M074 DIGESTIVc  mortality ALL DIGESTIVE DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 520-579)
+M074
+M075 PEPULCERc  mortality PEPTIC ULCER AND GASTRITIS AGE 35-69 (stand. rate/100,000) (ICD9  531-5)
+M075
+M076 ENTCOLc    mortality GASTROENTERITIS AND COLITIS AGE 35-69 (stand. rate/100,000) (ICD9 558)
+M076
+M077 INTESTOBc  mortality INTESTINAL OBSTRUCTION AGE 35-69 (stand. rate/100,000) (ICD9 560)
+M077
+M078 CIRRHOSb   mortality CIRRHOSIS (and other non-neoplastic liver disease), AGE 0-34 (stand. rate/100,000) (ICD9 070, 570-3)
+M078
+M079 CIRRHOSc   mortality CIRRHOSIS (and other non-neoplastic liver disease), AGE 35-69 (stand. rate/100,000) (ICD9 070, 570-3)
+M079
+M080 TOTLIVRb   mortality ALL LIVER DISEASE (cancer, cirrhosis, hepatitis etc) AGE 0-34 (stand. rate/100,000)
+M080                      (ICD9 070, 155, 570-3)
+M081 TOTLIVRc   mortality ALL LIVER DISEASE (cancer, cirrhosis, hepatitis etc) AGE 35-69 (stand. rate/100,000)
+M081                      (ICD9 070, 155, 570-3)
+M082 GALLBILc   mortality DISORDERS OF GALLBLADDER AND BILIARY TRACT AGE 35-69 (stand. rate/100,000) (ICD9 574-6)
+M082
+M083 GENITURc   mortality GENITOURINARY DISEASES AGE 35-69 (stand. rate/100,000) (ICD9 580-629)
+M083
+M084 GENITURmc  mortality MALE GENITOURINARY DISEASES AGE 35-69 (stand. rate/100,000) (ICD9 580-611)
+M084
+M085 GENITURfc  mortality FEMALE GENITOURINARY DISEASES AGE 35-69 (stand. rate/100,000) (ICD9 580-599, 610-629)
+M085
+M086 RENALc     mortality RENAL DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 580-593)
+M086
+M087 PREGBRTHb  mortality COMPLICATIONS OF PREGNANCY AND CHILDBIRTH AGE 0-34 (stand. rate/100,000) (ICD9 630-676)
+M087
+M088 PREGBRTHc  mortality COMPLICATIONS OF PREGNANCY AND CHILDBIRTH AGE 35-69 (stand. rate/100,000) (ICD9 630-676)
+M088
+M089 ALLSKINc   mortality ALL SKIN DISEASE AGE 35-69 (stand. rate/100,000) (ICD9 680-709)
+M089
+M090 MUSCSKELc  mortality MUSCULOSKELETAL DISEASES AGE 35-69 (stand. rate/100,000) (ICD9 710-739)
+M090
+M091 ILL-DEFb   mortality ILL-DEFINED CONDITIONS AGE 0-34 (stand. rate/100,000) (ICD9 780-799)
+M091
+M092 ILL-DEFc   mortality ILL-DEFINED CONDITIONS AGE 35-69 (stand. rate/100,000) (ICD9 780-799)
+M092
+M093 ACCIDENTb  mortality ALL ACCIDENTS AGE 0-34 (stand. rate/100,000) (ICD9 E800-E949)
+M093
+M094 ACCIDENTc  mortality ALL ACCIDENTS AGE 35-69 (stand. rate/100,000) (ICD9 E800-E949)
+M094
+M095 ROADACCb   mortality ROAD VEHICLE ACCIDENT AGE 0-34 (stand. rate/100,000) (ICD9 E810-E829)
+M095
+M096 ROADACCc   mortality ROAD VEHICLE ACCIDENT AGE 35-69 (stand. rate/100,000) (ICD9 E810-E829)
+M096
+M097 DROWNb     mortality DROWNING AGE 0-34 (stand. rate/100,000) (ICD9 E910)
+M097
+M098 DROWNc     mortality DROWNING AGE 35-69 (stand. rate/100,000) (ICD9 E910)
+M098
+M099 SUICIDEb   mortality SUICIDE AGE 0-34 (stand. rate/100,000) (ICD9 E950-9)
+M099
+M100 SUICIDEc   mortality SUICIDE AGE 35-69 (stand. rate/100,000) (ICD9 E950-9)
+M100
+M101 HOMICIDEb  mortality HOMICIDE (including legal intervention) AGE 0-34 (stand. rate/100,000) (ICD9 E960-E978)
+M101
+M102 HOMICIDEc  mortality HOMICIDE (including legal intervention) AGE 35-69 (stand. rate/100,000) (ICD9 E960-E978)
+M102
+M103 INFANT     mortality ALL CAUSE INFANT MORTALITY (rate/1,000 births)
+M103
+M104 MATERNAL   mortality MATERNAL MORTALITY (rate/1,000 births) (ICD9 630-676)
+M104
+M105 ALLCUMa    mortality ALL CAUSES AGE 0-4 (cumulative rate/1,000 by age 5)
+M105
+M106 MEDICALa   mortality ALL MEDICAL CAUSES AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 001-799)
+M106
+M107 NONMEDa    mortality ALL NON-MEDICAL CAUSES AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 E800-E999)
+M107
+M108 RESPINFa   mortality RESPIRATORY INFECTIONS AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 460-487)
+M108
+M109 ALLGIa     mortality ALL GASTRO-INTESTINAL INFECTIONS AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 001-009, 530-569, 578-9
+M109
+M110 CONGENITa  mortality CONGENITAL ANOMALIES AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 740-759)
+M110
+M111 NTDa       mortality NEURAL TUBE DEFECTS AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 740-2)
+M111
+M112 CONGENHDa  mortality CONGENITAL HEART DISEASE AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 745-6)
+M112
+M113 PERINATa   mortality ALL PERINATAL (rate/1,000) (ICD9 760-779)
+M113
+M114 LOWBTHWTa  mortality LOW BIRTH WEIGHT (rate/1,000) (ICD9 764-5)
+M114
+M115 BTHTRAUMa  mortality BIRTH TRAUMA AND HYPOXIA (rate/1,000) (ICD9 767-8)
+M115
+M116 RDSa       mortality RESPIRATORY DISTRESS SYNDROME (rate/1,000) (ICD9 769-770)
+M116
+M117 NEOTETANa  mortality NEONATAL TETANUS (rate/1,000) (ICD9 771.3, and 037 for deaths <2 months)
+M117
+M118 MALNUTRIa  mortality MALNUTRITION AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 260-9)
+M118
+M119 DROWNa     mortality DROWNING AGE 0-4 (cumulative rate/1,000 by age 5) (ICD9 E910)
+M119
+P001 TOTCHOL    plasma TOTAL CHOLESTEROL (mg/dL)
+P001
+P002 HDLCHOL    plasma HIGH DENSITY LIPOPROTEIN CHOLESTEROL (mg/dL)
+P002
+P003 NONHDL     plasma NON-HDL CHOLESTEROL (mg/dL)
+P003
+P004 APOA1      plasma APOLIPOPROTEIN A1 (mg/dL) (non-pooled analysis)
+P004
+P005 APOB       plasma APOLIPOPROTEIN B (mg/dL) (non-pooled analysis)
+P005
+P006 ALBUMIN    plasma ALBUMIN (g/dL) (non-pooled analysis)
+P006
+P007 TOTPROT    plasma 1989 TOTAL PROTEIN  (g/dL)
+P007
+P008 A-CAROT    plasma ALPHA CAROTENE (ug/dL)
+P008
+P009 B-CAROT    plasma BETA CAROTENE (ug/dL)
+P009
+P010 G-CAROT    plasma GAMMA CAROTENE (ug/dL)
+P010
+P011 Z-CAROT    plasma ZETA CAROTENE (ug/dL)
+P011
+P012 RETINOL    plasma RETINOL (ug/dL)
+P012
+P013 RBP        plasma RETINOL BINDING PROTEIN (mg/dL)
+P013
+P014 A-TOCOPH   plasma ALPHA TOCOPHEROL (ug/dL)
+P014
+P015 G-TOCOPH   plasma GAMMA TOCOPHEROL (ug/dL)
+P015
+P016 LYCOPENE   plasma LYCOPENE (ug/dL)
+P016
+P017 LUTEIN     plasma LUTEIN (ug/dL)
+P017
+P018 ANHYDLUT   plasma ANHYDRO LUTEIN (ug/dL)
+P018
+P019 A-CRYPT    plasma ALPHA CRYPTOXANTHIN (ug/dL)
+P019
+P020 B-CRYPT    plasma BETA CRYPTOXANTHIN (ug/dL)
+P020
+P021 NEURSPOR   plasma NEUROSPORENE (ug/dL)
+P021
+P022 PHYTOFLU   plasma PHYTOFLUENE (ug/dL)
+P022
+P023 PHYTOENE   plasma PHYTOENE (ug/dL)
+P023
+P024 FOLATE     plasma FOLATE (ng/mL)
+P024
+P025 VITC       plasma VITAMIN C (ascorbic acid) (mg/dL)
+P025
+P026 CERULO     plasma CERULOPLASMIN (mg/dL)
+P026
+P027 Cu         plasma COPPER (mg/dL)
+P027
+P028 K          plasma POTASSIUM (mg/dL)
+P028
+P029 INORG-P    plasma 1989 INORGANIC PHOSPHORUS (mg/dL)
+P029
+P030 Se         plasma SELENIUM (ug/dL)
+P030
+P031 Zn         plasma ZINC (mg/dL)
+P031
+P032 Fe         plasma IRON (mg/dL)
+P032
+P033 FERRITIN   plasma FERRITIN (ng/mL)
+P033
+P034 TIBC       plasma TOTAL IRON BINDING CAPACITY (ug/dL)
+P034
+P035 TRANSFE    plasma 1989 TRANSFERRIN (mg/dL)
+P035
+P036 GLUCOSE    plasma 1989 GLUCOSE (mg/dL)
+P036
+P037 BUN        plasma 1989 UREA NITROGEN (mg/dL)
+P037
+P038 PEPSIN     plasma PEPSINOGEN I/II
+P038
+P039 THYROXINE  plasma TOTAL THYROXINE (ug/dL)
+P039
+P040 B2-MGLOB   plasma BETA-2-MICROGLOBULIN (ug/mL)
+P040
+P041 TESTOSTm   plasma TESTOSTERONE (males) (ng/mL)
+P041
+P042 HBsAg      plasma HEPATITIS B SURFACE ANTIGEN
+P042                   (% of individual samples that were positive; non-pooled analysis)
+P043 HBsAb      plasma HEPATITIS B ANTI-SURFACE ANTIGEN ANTIBODY
+P043                   (% of individual samples that were positive; non-pooled analysis)
+P044 HPYLORI    plasma HELICOBACTER PYLORI IgG ANTIBODY (using cut-off 300)
+P044                   (% of individual samples that were positive; non-pooled analysis)
+P045 COTININEm  plasma MALE COTININE (ng/mL) (non-pooled analysis)
+P045
+P046 COTININEf  plasma FEMALE COTININE (ng/mL) (non-pooled analysis)
+P046
+P047 COTIN>20m  plasma PERCENT OF MALES WITH COTININE >20 ng/mL
+P047
+P048 COTIN>20f  plasma PERCENT OF FEMALES WITH COTININE >20 ng/mL
+P048
+R001 Hb         red blood cell HAEMOGLOBIN (g/dL of whole blood) (non-pooled analysis)
+R001
+R002 RIBOFDEF   red blood cell RIBOFLAVIN DEFICIENCY (glutathione reductase activity coefficient)
+R002
+R003 SATFA      red blood cell TOTAL LIPID SATURATES (14:0+16:0+18:0+20:0+22:0+24:0)
+R003                           (% of total fatty acid by weight)
+R004 MUFA       red blood cell TOTAL LIPID MONOUNSATURATES (16:1+18:1+20:1+22:1+24:1)
+R004                           (% of total fatty acid by weight)
+R005 TOTn6      red blood cell TOTAL LIPID n6 POLYUNSATURATES (18:2+20:2+20:3+20:4)
+R005                           (% of total fatty acid by weight)
+R006 TOTn3      red blood cell TOTAL LIPID n3 POLYUNSATURATES (18:3+20:5+22:6)
+R006                           (% of total fatty acid by weight)
+R007 PUFA       red blood cell TOTAL LIPID POLYUNSATURATES (% of total fatty acid by weight)
+R007                           (18:2(6)+18:3(3)+20:2(6)+20:3(6)+20:4(6)+20:5(3)+22:6(3))
+R008 P/S        red blood cell TOTAL LIPID POLYUNSATURATES/SATURATES (P:S RATIO)
+R008                           (18:2(6)+18:3(3)+20:2(6)+20:3(6)+20:4(6)+20:5(3)+22:6(3))/(14:0+16:0+18:0+20:0+22:0+24:0)
+R009 14:0       red blood cell TOTAL LIPID MYRISTIC ACID (14:0) (% of total fatty acid by weight)
+R009
+R010 16:0       red blood cell TOTAL LIPID PALMITIC ACID (16:0) (% of total fatty acid by weight)
+R010
+R011 18:0       red blood cell TOTAL LIPID STEARIC ACID (18:0) (% of total fatty acid by weight)
+R011
+R012 20:0       red blood cell TOTAL LIPID ARACHIDIC ACID (20:0) (% of total fatty acid by weight)
+R012
+R013 22:0       red blood cell TOTAL LIPID BEHENIC ACID (22:0) (% of total fatty acid by weight)
+R013
+R014 24:0       red blood cell TOTAL LIPID LIGNOCERIC ACID (24:0) (% of total fatty acid by weight)
+R014
+R015 16:1n7     red blood cell TOTAL LIPID PALMITOLEIC ACID (16:1(7)) (% of total fatty acid by weight)
+R015
+R016 18:1n9     red blood cell TOTAL LIPID OLEIC ACID (18:1(9)) (% of total fatty acid by weight)
+R016
+R017 20:1n9     red blood cell TOTAL LIPID GONDOIC ACID (20:1(9)) (% of total fatty acid by weight)
+R017
+R018 22:1n9     red blood cell TOTAL LIPID ERUCIC ACID (22:1(9)) (% of total fatty acid by weight)
+R018
+R019 24:1n9     red blood cell TOTAL LIPID NERVONIC ACID (24:1(9)) (% of total fatty acid by weight)
+R019
+R020 18:3n3     red blood cell TOTAL LIPID LINOLENIC ACID (18:3(3)) (% of total fatty acid by weight)
+R020
+R021 20:5n3     red blood cell TOTAL LIPID EICOSAPENTAENOIC ACID (20:5(3))
+R021                           (% of total fatty acid by weight)
+R022 22:6n3     red blood cell TOTAL LIPID DOCOSAHEXAENOIC ACID (22:6(3)) (% of total fatty acid by weight)
+R022
+R023 18:2n6     red blood cell TOTAL LIPID LINOLEIC ACID (18:2(6)) (% of total fatty acid by weight)
+R023
+R024 20:2n6     red blood cell TOTAL LIPID EICOSADIENOIC ACID (20:2(6)) (% of total fatty acid by weight)
+R024
+R025 20:3n6     red blood cell TOTAL LIPID DI-HOMO-GAMMA-LINOLENIC ACID (20:3(6))
+R025                           (% of total fatty acid by weight)
+R026 20:4n6     red blood cell TOTAL LIPID ARACHIDONIC ACID (20:4(6)) (% of total fatty acid by weight)
+R026
+U001 Cl/cre     urine CHLORIDE (mg/mg creatinine)
+U001
+U002 K/cre      urine POTASSIUM (mg/mg creatinine)
+U002
+U003 Na/cre     urine SODIUM (mg/mg creatinine)
+U003
+U004 Ca/cre     urine CALCIUM (mg/mg creatinine)
+U004
+U005 P/cre      urine PHOSPHORUS (mg/mg creatinine)
+U005
+U006 UREA/cre   urine UREA NITROGEN (mg/mg creatinine)
+U006
+U007 URIC/cre   urine URIC ACID (mg/mg creatinine)
+U007
+U008 CREAT      urine CREATININE (mg excreted in 12 hours)
+U008
+U009 TAUR/cre   urine TAURINE (mg/mg creatinine)
+U009
+U010 AFM1/cre   urine AFLATOXIN M1 (pg/mg creatinine)
+U010
+U011 COT/cre    urine COTININE (ug/mg creatinine)
+U011
+U012 VOLURINE   nitrosamine study URINE VOLUME (ml excreted in 12 hours after ingesting 500mg L-proline)
+U012
+U013 VOLURINEa  nitrosamine study URINE VOLUME
+U013                              (ml excreted in 12 hours after ingesting 500mg L-proline and 200mg ascorbic acid)
+U014 VOLURmn    nitrosamine study MEAN URINE VOLUME (ml excreted in 12 hours) (Mean of amounts
+U014            excreted after ingesting 500mg L-proline with and without 200mg ascorbic acid)
+U015 NSAR       nitrosamine study N-NITROSOSARCOSINE (ug excreted in 12 hours after ingesting 500mg L-proline)
+U015
+U016 NSARa      nitrosamine study N-NITROSOSARCOSINE
+U016                              (ug excreted in 12 hours after ingesting 500mg L-proline and 200mg ascorbic acid)
+U017 NPRO       nitrosamine study N-NITROSOPROLINE (ug excreted in 12 hours after ingesting 500mg L-proline)
+U017
+U018 NPROa      nitrosamine study N-NITROSOPROLINE
+U018                              (ug excreted in 12 hours after ingesting 500mg L-proline and 200mg ascorbic acid)
+U019 NMTCA      nitrosamine study N-NITROSO-2-METHYL-THIAZOLIDINE-4-CARBOXYLIC ACID
+U019                              (ug excreted in 12 hours after ingesting 500mg L-proline)
+U020 NMTCAa     nitrosamine study N-NITROSO-2-METHYL-THIAZOLIDINE-4-CARBOXYLIC ACID
+U020            (ug excreted in 12 hours after ingesting 500mg L-proline and 200mg ascorbic acid)
+U021 NTCA       nitrosamine study N-NITROSO-THIAZOLIDINE-4-CARBOXYLIC ACID
+U021                              (ug excreted in 12 hours after ingesting 500mg L-proline)
+U022 NTCAa      nitrosamine study N-NITROSO-THIAZOLIDINE-4-CARBOXYLIC ACID
+U022                              (ug excreted in 12 hours after ingesting 500mg L-proline and 200mg ascorbic acid)
+U023 NO3mn      nitrosamine study NITRATE (g excreted in 12 hours)
+U023                              (Mean of amounts excreted after ingesting 500mg L-proline with and without 200mg ascorbic acid)
+U024 INHIBPRO   nitrosamine study ASCORBATE-INHIBITABLE PROLINE NITROSATION (ug/12 hours)
+U024                              (Calculated from NNPRO-NNPROa)
+U025 SUMNIT     nitrosamine study SUM OF N-NITROSAMINO ACIDS
+U025                              (ug excreted in 12 hours after ingesting 500mg L-proline)
+U026 SUMNITa    nitrosamine study SUM OF N-NITROSAMINO ACIDS
+U026                              (ug excreted in 12 hours after ingesting 500mg L-proline and 200mg ascorbic acid)
+U027 NSARmn     nitrosamine study N-NITROSOSARCOSINE (ug excreted in 12 hours) (Mean of amounts
+U027            excreted after ingesting 500mg L-proline with and without 200mg ascorbic acid)
+U028 NPROmn     nitrosamine study N-NITROSOPROLINE
+U028                              (Mean of amounts excreted after ingesting 500mg L-proline with and without 200mg ascorbic acid)
+U029 NMTCAmn    nitrosamine study N-NITROSO-2-METHYL-THIAZOLIDINE-4-CARBOXYLIC ACID (ug excreted in 12 hours)
+U029                              (Mean of amounts excreted after ingesting 500mg L-proline with and without 200mg ascorbic acid)
+U030 NTCAmn     nitrosamine study N-NITROSO-THIAZOLIDINE-4-CARBOXYLIC ACID (ug excreted in 12 hours)
+U030                              (Mean of amounts excreted after ingesting 500mg L-proline with and without 200mg ascorbic acid)
+U031 TNOC       nitrosamine study TOTAL NITROSO COMPOUNDS
+U031                              (umol excreted in 12 hours after ingesting 500mg L-proline)
+U032 TNOCa      nitrosamine study TOTAL NITROSO COMPOUNDS
+U032                              (umol excreted in 12 hours after ingesting 500mg L-proline and 200mg ascorbic acid)
+U033 INHIBNOC   nitrosamine study ASCORBATE-INHIBITABLE TOTAL NITROSATION (umol/12 hours)
+U033                              (Calculated from NTNOC-NTNOCa)
+D001 KCAL       diet survey CALORIC INTAKE (kcal/day/reference man)
+D001
+D002 TOTFAT     diet survey TOTAL LIPID INTAKE (g/day/reference man)
+D002
+D003 TOTPROT    diet survey TOTAL PROTEIN INTAKE (g/day/reference man)
+D003
+D004 SOLCARB    diet survey CARBOHYDRATE (nitrogen free extract) INTAKE (g/day/reference man)
+D004
+D005 %FATKCAL   diet survey PERCENTAGE OF CALORIC INTAKE FROM FAT (for reference man)
+D005
+D006 %PROTKCAL  diet survey PERCENTAGE OF CALORIC INTAKE FROM PROTEIN (for reference man)
+D006
+D007 %ANPRKCAL  diet survey PERCENTAGE OF CALORIC INTAKE FROM ANIMAL PROTEIN (for reference man)
+D007
+D008 %PLPRKCAL  diet survey PERCENTAGE OF CALORIC INTAKE FROM PLANT PROTEIN (for reference man)
+D008
+D009 %CARBKCAL  diet survey PERCENTAGE OF CALORIC INTAKE FROM CARBOHYDRATE (for reference man)
+D009
+D010 RETINOL    diet survey RETINOL INTAKE (retinol equivalents/day/reference man)
+D010
+D011 TOTCAROT   diet survey TOTAL CAROTENOID INTAKE (retinol equivalents/day/reference man)
+D011
+D012 VITA       diet survey TOTAL VITAMIN A INTAKE (retinol equivalents/day/reference man)
+D012
+D013 VITE       diet survey TOTAL VITAMIN E INTAKE (mg/day/reference man)
+D013
+D014 VITC       diet survey VITAMIN C (ASCORBIC ACID) INTAKE (mg/day/reference man)
+D014
+D015 THIAMINE   diet survey THIAMINE (VITAMIN B1) INTAKE (mg/day/reference man)
+D015
+D016 RIBOFLAV   diet survey RIBOFLAVIN (VITAMIN B2) INTAKE (mg/day/reference man)
+D016
+D017 NIACIN     diet survey NIACIN INTAKE (mg/day/reference man)
+D017
+D018 Ca         diet survey CALCIUM INTAKE (mg/day/reference man)
+D018
+D019 Fe         diet survey IRON INTAKE (mg/day/reference man)
+D019
+D020 Cu         diet survey COPPER INTAKE (mg/day/reference man)
+D020
+D021 K          diet survey POTASSIUM INTAKE (mg/day/reference man)
+D021
+D022 Mg         diet survey MAGNESIUM INTAKE (mg/day/reference man)
+D022
+D023 Mn         diet survey MANGANESE INTAKE (mg/day/reference man)
+D023
+D024 TOTNa      diet survey TOTAL SODIUM INTAKE (including added salt) (g/day/reference man)
+D024
+D025 Na         diet survey INTAKE OF SODIUM FROM FOODSTUFFS (g/day/reference man)
+D025
+D026 SeCARRY    diet survey SELENIUM CARRYING CAPACITY OF THE DIET
+D026                        (ug/day/reference man that would be consumed if average food composition tables applied locally)
+D027 Zn         diet survey ZINC INTAKE (mg/day/reference man)
+D027
+D028 PLNTFOOD   diet survey PLANT FOOD INTAKE (g/day/reference man)
+D028
+D029 ANIMFOOD   diet survey ANIMAL FOOD INTAKE (g/day/reference man)
+D029
+D030 TOTFOOD    diet survey TOTAL FOOD INTAKE (g/day/reference man)
+D030
+D031 %PLNTFOOD  diet survey PERCENTAGE PLANT FOOD INTAKE (for reference man)
+D031
+D032 %ANIMFOOD  diet survey PERCENTAGE ANIMAL FOOD INTAKE (for reference man)
+D032
+D033 PLNTPROT   diet survey PLANT PROTEIN INTAKE (g/day/reference man)
+D033
+D034 ANIMPROT   diet survey ANIMAL PROTEIN INTAKE (g/day/reference man)
+D034
+D035 %PLNTPROT  diet survey PERCENTAGE PLANT PROTEIN INTAKE (for reference man)
+D035
+D036 %ANIMPROT  diet survey PERCENTAGE ANIMAL PROTEIN INTAKE (for reference man)
+D036
+D037 RICE       diet survey RICE INTAKE (g/day/reference man, air-dry basis)
+D037
+D038 WHTFLOUR   diet survey WHEAT FLOUR INTAKE (g/day/reference man, air-dry basis)
+D038
+D039 OTHCEREAL  diet survey OTHER CEREAL INTAKE (g/day/reference man, air-dry basis)
+D039
+D040 STCHTUBER  diet survey STARCHY TUBER INTAKE (g/day/reference man, fresh weight)
+D040
+D041 LEGUME     diet survey LEGUME AND LEGUME PRODUCT INTAKE (g/day/reference man, fresh weight)
+D041
+D042 LIGHTVEG   diet survey LIGHT COLOURED VEGETABLE INTAKE (g/day/reference man, fresh weight)
+D042
+D043 GREENVEG   diet survey GREEN VEGETABLE INTAKE (g/day/reference man, fresh weight)
+D043
+D044 SALTVEG    diet survey DRIED AND SALT-PRESERVED VEGETABLE INTAKE (g/day/reference man, as-consumed basis)
+D044
+D045 FRUIT      diet survey FRUIT INTAKE (g/day/reference man, fresh weight)
+D045
+D046 NUTS       diet survey NUT INTAKE (g/day/reference man, as-consumed basis)
+D046
+D047 MILK       diet survey MILK AND DAIRY PRODUCTS INTAKE (g/day/reference man, as-consumed basis)
+D047
+D048 EGGS       diet survey EGG INTAKE (g/day/reference man, as-consumed basis)
+D048
+D049 MEAT       diet survey MEAT INTAKE (red meat and poultry) (g/day/reference man, as-consumed basis)
+D049
+D050 REDMEAT    diet survey RED MEAT (pork, beef, mutton) INTAKE (g/day/reference man, as-consumed basis)
+D050
+D051 POULTRY    diet survey POULTRY INTAKE (g/day/reference man, as-consumed basis)
+D051
+D052 FISH       diet survey FISH INTAKE (g/day/reference man, as-consumed basis)
+D052
+D053 ANIMFAT    diet survey ADDED ANIMAL FAT (for cooking, spreading etc) INTAKE (g/day/reference man)
+D053
+D054 VEGOIL     diet survey ADDED VEGETABLE OIL (for cooking etc) INTAKE (g/day/reference man)
+D054
+D055 ADDEDFAT   diet survey TOTAL ADDED FAT (5144 + 5145) INTAKE (g/day/reference man)
+D055
+D056 STCHSUGAR  diet survey PROCESSED STARCH AND SUGAR INTAKE (g/day/reference man, as-consumed basis)
+D056
+D057 ADDEDSALT  diet survey INTAKE OF ADDED SALT (g/day/reference man)
+D057
+D058 SPICE      diet survey SPICE INTAKE (g/day/reference man)
+D058
+D059 TOTNDF     diet survey TOTAL NEUTRAL DETERGENT FIBRE INTAKE (g/day/reference man)
+D059
+D060 BEER       diet survey BEER INTAKE (g/day/reference man)
+D060
+D061 WINE       diet survey WINE INTAKE (g/day/reference man)
+D061
+D062 LIQUOR     diet survey LIQUOR INTAKE (g/day/reference man)
+D062
+D063 ALANINE    diet survey ALANINE INTAKE (g/day/reference man)
+D063
+D064 ARGININE   diet survey ARGININE INTAKE (g/day/reference man)
+D064
+D065 ASPARTATE  diet survey ASPARTATE INTAKE (g/day/reference man)
+D065
+D066 CYSTINE    diet survey CYSTEINE INTAKE (g/day/reference man)
+D066
+D067 GLUTAMINE  diet survey GLUTAMINE INTAKE (g/day/reference man)
+D067
+D068 GLYCINE    diet survey GLYCINE INTAKE (g/day/reference man)
+D068
+D069 HISTIDINE  diet survey HISTIDINE INTAKE (g/day/reference man)
+D069
+D070 ISOLEUCIN  diet survey ISOLEUCINE INTAKE (g/day/reference man)
+D070
+D071 LEUCINE    diet survey LEUCINE INTAKE (g/day/reference man)
+D071
+D072 LYSINE     diet survey LYSINE INTAKE (g/day/reference man)
+D072
+D073 METHIONIN  diet survey METHIONINE INTAKE (g/day/reference man)
+D073
+D074 METH+CYS   diet survey METHIONINE+CYSTEINE INTAKE (g/day/reference man)
+D074
+D075 PHENYLALA  diet survey PHENYLALANINE INTAKE (g/day/reference man)
+D075
+D076 PROLINE    diet survey PROLINE INTAKE (g/day/reference man)
+D076
+D077 SERINE     diet survey SERINE INTAKE (g/day/reference man)
+D077
+D078 THREONINE  diet survey THREONINE INTAKE (g/day/reference man)
+D078
+D079 TRYPTOPH   diet survey TRYPTOPHANE INTAKE (g/day/reference man)
+D079
+D080 TYROSINE   diet survey TYROSINE INTAKE (g/day/reference man)
+D080
+D081 VALINE     diet survey VALINE INTAKE (g/day/reference man)
+D081
+D082 MUFA       diet survey MONOUNSATURATED FATTY ACID INTAKE (g/day/reference man)
+D082
+D083 PUFA       diet survey POLYUNSTURATED FATTY ACID INTAKE (g/day/reference man)
+D083
+D084 SATFA      diet survey SATURATED FATTY ACID INTAKE (g/day/reference man)
+D084
+D085 CHOL       diet survey CHOLESTEROL INTAKE (mg/day/reference man)
+D085
+D086 LYS/ARG    diet survey LYSINE/ARGININE: RATIO OF INTAKES (for reference man)
+D086
+D087 %MUFA      diet survey PERCENT OF TOTAL FATTY ACID INTAKE THAT IS MONOUNSATURATED (for reference man)
+D087
+D088 %PUFA      diet survey PERCENT OF TOTAL FATTY ACID INTAKE THAT IS POLYUNSATURATED (for reference man)
+D088
+D089 %SATFA     diet survey PERCENT OF TOTAL FATTY ACID INTAKE THAT IS SATURATED (for reference man)
+D089
+D090 P/S        diet survey POLYUNSATURATES/SATURATES: RATIO OF INTAKES (for reference man)
+D090
+D091 M/P        diet survey MONOUNSATURATES/POLYUNSATURATES: RATIO OF INTAKES (for reference man)
+D091
+D092 TOTn3      diet survey TOTAL n3 POLYUNSATURATED FATTY ACID INTAKE (g/day/reference man)
+D092
+D093 TOTn6      diet survey TOTAL n6 POLYUNSATURATED FATTY ACID INTAKE (g/day/reference man)
+D093
+D094 TOTn9      diet survey TOTAL n9 MONOUNSATURATED FATTY ACID INTAKE (g/day/reference man)
+D094
+D095 %TOTn3     diet survey PERCENT OF TOTAL FATTY ACID INTAKE THAT IS n3 POLYUNSATURATED (for reference man)
+D095
+D096 %TOTn6     diet survey PERCENT OF TOTAL FATTY ACID INTAKE THAT IS n6 POLYUNSATURATED (for reference man)
+D096
+D097 %TOTn9     diet survey PERCENT OF TOTAL FATTY ACID INTAKE THAT IS n9 MONOUNSATURATED (for reference man)
+D097
+D098 6:0        diet survey INTAKE OF 6:0 (mg/day/reference man)
+D098
+D099 8:0        diet survey INTAKE OF 8:0 (mg/day/reference man)
+D099
+D100 10:0       diet survey INTAKE OF 10:0 (mg/day/reference man)
+D100
+D101 11:0       diet survey INTAKE OF 11:0 (mg/day/reference man)
+D101
+D102 12:0       diet survey INTAKE OF 12:0 (mg/day/reference man)
+D102
+D103 13:0       diet survey INTAKE OF 13:0 (mg/day/reference man)
+D103
+D104 14:0       diet survey INTAKE OF 14:0 (g/day/reference man)
+D104
+D105 14:1       diet survey INTAKE OF 14:1 (mg/day/reference man)
+D105
+D106 15:0       diet survey INTAKE OF 15:0 (mg/day/reference man)
+D106
+D107 15:1       diet survey INTAKE OF 15:1 (mg/day/reference man)
+D107
+D108 16:0       diet survey INTAKE OF 16:0 (g/day/reference man)
+D108
+D109 16:1       diet survey INTAKE OF 16:1 (g/day/reference man)
+D109
+D110 16:2       diet survey INTAKE OF 16:2 (mg/day/reference man)
+D110
+D111 17:0       diet survey INTAKE OF 17:0 (mg/day/reference man)
+D111
+D112 17:1       diet survey INTAKE OF 17:1 (mg/day/reference man)
+D112
+D113 18:0       diet survey INTAKE OF 18:0 (g/day/reference man)
+D113
+D114 18:1       diet survey INTAKE OF 18:1 (g/day/reference man)
+D114
+D115 18:2       diet survey INTAKE OF 18:2 (g/day/reference man)
+D115
+D116 18:3       diet survey INTAKE OF 18:3 (g/day/reference man)
+D116
+D117 19:0       diet survey INTAKE OF 19:0 (mg/day/reference man)
+D117
+D118 20:0       diet survey INTAKE OF 20:0 (mg/day/reference man)
+D118
+D119 20:1       diet survey INTAKE OF 20:1 (mg/day/reference man)
+D119
+D120 20:2       diet survey INTAKE OF 20:2 (mg/day/reference man)
+D120
+D121 20:3       diet survey INTAKE OF 20:3 (mg/day/reference man)
+D121
+D122 20:4       diet survey INTAKE OF 20:4 (mg/day/reference man)
+D122
+D123 20:5       diet survey INTAKE OF 20:5 (mg/day/reference man)
+D123
+D124 22:0       diet survey INTAKE OF 22:0 (mg/day/reference man)
+D124
+D125 22:1       diet survey INTAKE OF 22:1 (mg/day/reference man)
+D125
+D126 22:3       diet survey INTAKE OF 22:3 (mg/day/reference man)
+D126
+D127 22:4       diet survey INTAKE OF 22:4 (mg/day/reference man)
+D127
+D128 22:5       diet survey INTAKE OF 22:5 (mg/day/reference man)
+D128
+D129 22:6       diet survey INTAKE OF 22:6 (mg/day/reference man)
+D129
+D130 %6:0       diet survey PERCENT INTAKE OF 6:0 (% of total fatty acid) (for reference man)
+D130
+D131 %8:0       diet survey PERCENT INTAKE OF 8:0 (% of total fatty acid) (for reference man)
+D131
+D132 %10:0      diet survey PERCENT INTAKE OF 10:0 (% of total fatty acid) (for reference man)
+D132
+D133 %11:0      diet survey PERCENT INTAKE OF 11:0 (% of total fatty acid) (for reference man)
+D133
+D134 %12:0      diet survey PERCENT INTAKE OF 12:0 (% of total fatty acid) (for reference man)
+D134
+D135 %13:0      diet survey PERCENT INTAKE OF 13:0 (% of total fatty acid) (for reference man)
+D135
+D136 %14:0      diet survey PERCENT INTAKE OF 14:0 (Myristic acid) (% of total fatty acid) (for reference man)
+D136
+D137 %14:1      diet survey PERCENT INTAKE OF 14:1 (% of total fatty acid) (for reference man)
+D137
+D138 %15:0      diet survey PERCENT INTAKE OF 15:0 (% of total fatty acid) (for reference man)
+D138
+D139 %15:1      diet survey PERCENT INTAKE OF 15:1 (% of total fatty acid) (for reference man)
+D139
+D140 %16:0      diet survey PERCENT INTAKE OF 16:0 (Palmitic acid) (% of total fatty acid) (for reference man)
+D140
+D141 %16:1      diet survey PERCENT INTAKE OF 16:1 (Palmitoleic acid) (% of total fatty acid) (for reference man)
+D141
+D142 %16:2      diet survey PERCENT INTAKE OF 16:2 (% of total fatty acid) (for reference man)
+D142
+D143 %17:0      diet survey PERCENT INTAKE OF 17:0 (% of total fatty acid) (for reference man)
+D143
+D144 %17:1      diet survey PERCENT INTAKE OF 17:1 (% of total fatty acid) (for reference man)
+D144
+D145 %18:0      diet survey PERCENT INTAKE OF 18:0 (Stearic acid) (% of total fatty acid) (for reference man)
+D145
+D146 %18:1      diet survey PERCENT INTAKE OF 18:1 (Oleic acid) (% of total fatty acid) (for reference man)
+D146
+D147 %18:2      diet survey PERCENT INTAKE OF 18:2 (Linoleic acid) (% of total fatty acid) (for reference man)
+D147
+D148 %18:3      diet survey PERCENT INTAKE OF 18:3 (Linolenic acid) (% of total fatty acid) (for reference man)
+D148
+D149 %19:0      diet survey PERCENT INTAKE OF 19:0 (% of total fatty acid) (for reference man)
+D149
+D150 %20:0      diet survey PERCENT INTAKE OF 20:0 (% of total fatty acid) (for reference man)
+D150
+D151 %20:1      diet survey PERCENT INTAKE OF 20:1 (% of total fatty acid) (for reference man)
+D151
+D152 %20:2      diet survey PERCENT INTAKE OF 20:2 (% of total fatty acid) (for reference man)
+D152
+D153 %20:3      diet survey PERCENT INTAKE OF 20:3 (% of total fatty acid) (for reference man)
+D153
+D154 %20:4      diet survey PERCENT INTAKE OF 20:4 (% of total fatty acid) (for reference man)
+D154
+D155 %20:5      diet survey PERCENT INTAKE OF 20:5 (% of total fatty acid) (for reference man)
+D155
+D156 %22:0      diet survey PERCENT INTAKE OF 22:0 (% of total fatty acid) (for reference man)
+D156
+D157 %22:1      diet survey PERCENT INTAKE OF 22:1 (% of total fatty acid) (for reference man)
+D157
+D158 %22:3      diet survey PERCENT INTAKE OF 22:3 (% of total fatty acid) (for reference man)
+D158
+D159 %22:4      diet survey PERCENT INTAKE OF 22:4 (% of total fatty acid) (for reference man)
+D159
+D160 %22:5      diet survey PERCENT INTAKE OF 22:5 (% of total fatty acid) (for reference man)
+D160
+D161 %22:6      diet survey PERCENT INTAKE OF 22:6 (% of total fatty acid) (for reference man)
+D161
+G001 LATITUDE   general features LATITUDE (degrees N)
+G001
+G002 LONGITUDE  general features LONGITUDE (degrees E)
+G002
+G003 ELEVATION  general features ELEVATION (meters)
+G003
+G004 ARIDITY    general features ARIDITY
+G004                             (1=Humid, 2=Subhumid, 3=Subarid, 4=Arid)
+G005 HEAT       general features HEAT ZONE (1=North Temperate, 2=Middle Temperate, 3=South Temperate,
+G005                             4=North Subtropical, 5=Middle Subtropical, 6=South Subtropical, 7=North Tropical)
+Q001 aPOPULAT   questionnaire TOTAL 1989 XIANG POPULATION (1000s)
+Q001
+Q002 aVILLAGE   questionnaire NUMBER OF VILLAGES IN XIANG
+Q002
+Q003 aHOUSHLD   questionnaire NUMBER OF HOUSEHOLDS (1000s)
+Q003
+Q004 aVILLPOP   questionnaire AVERAGE VILLAGE POPULATION
+Q004
+Q005 dBORNOUT   questionnaire PERCENTAGE BORN OUTSIDE COUNTY
+Q005
+Q006 dNOTWED    questionnaire PERCENTAGE NEVER MARRIED
+Q006
+Q007 cHHSIZE    questionnaire AVERAGE HOUSEHOLD SIZE
+Q007
+Q008 c%FHEAD    questionnaire PERCENTAGE OF HOUSEHOLDS HEADED BY FEMALE
+Q008
+Q009 b%WORKOUT  questionnaire PERCENTAGE OF VILLAGERS WORKING OUTSIDE VILLAGE
+Q009
+Q010 c%AGRICUL  questionnaire PERCENTAGE OF HOUSEHOLD HEADS WHOSE PRIMARY OCCUPATION IS AGRICULTURE
+Q010
+Q011 aAGRICULf  questionnaire PERCENTAGE OF FEMALES EMPLOYED IN AGRICULTURE
+Q011
+Q012 dBUDDHIST  questionnaire PERCENTAGE WHO BELIEVE IN BUDDHIST RELIGION
+Q012
+Q013 dCHRIST    questionnaire PERCENTAGE WHO BELIEVE IN CHRISTIAN RELIGION
+Q013
+Q014 dMUSLIM    questionnaire PERCENTAGE WHO BELIEVE IN MUSLIM RELIGION
+Q014
+Q015 aCANREADf  questionnaire PERCENTAGE OF FEMALES WHO ARE LITERATE
+Q015
+Q016 aCANREADm  questionnaire PERCENTAGE OF MALES WHO ARE LITERATE
+Q016
+Q017 aPRIMARY   questionnaire NUMBER OF PRIMARY SCHOOLS PER 1000 HOUSEHOLDS
+Q017
+Q018 aSCHOOLS   questionnaire TOTAL NUMBER OF SCHOOLS PER XIANG
+Q018
+Q019 dCANREAD   questionnaire PERCENTAGE WHO CAN READ THE NEWSPAPER WELL
+Q019
+Q020 c%NOTREAD  questionnaire PERCENTAGE OF HOUSEHOLD HEADS WHO CANNOT READ NEWSPAPER
+Q020
+Q021 eCANREAD   questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO CAN READ NEWSPAPER MODERATELY WELL
+Q021
+Q022 dEDUCATED  questionnaire PERCENTAGE WHO ARE WELL-EDUCATED
+Q022
+Q023 c%NOSCHL   questionnaire PERCENTAGE OF HOUSEHOLD HEADS ATTENDED NO SCHOOL
+Q023
+Q024 c%1stSCHL  questionnaire PERCENTAGE OF HOUSEHOLD HEADS ATTENDED UP TO PRIMARY SCHOOL ONLY
+Q024
+Q025 c%2ndSCHL  questionnaire PERCENTAGE OF HOUSEHOLD HEADS ATTENDED UP TO JUNIOR SCHOOL ONLY
+Q025
+Q026 eEDUCATED  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WITH HIGHER EDUCATION
+Q026
+Q027 dREADNEWS  questionnaire PERCENTAGE WHO READ THE NEWSPAPER SEVERAL TIMES PER WEEK
+Q027
+Q028 dREADMAGS  questionnaire PERCENTAGE WHO READ MAGAZINES OFTEN
+Q028
+Q029 dRADIO     questionnaire PERCENTAGE WHO LISTEN TO THE RADIO SEVERAL TIMES PER WEEK
+Q029
+Q030 dWATCHTV   questionnaire PERCENTAGE WHO WATCH TV SEVERAL TIMES PER WEEK
+Q030
+Q031 aINCOME    questionnaire PER CAPITA ANNUAL INCOME (Yuan)
+Q031
+Q032 bINC<500   questionnaire PERCENTAGE OF HOUSEHOLDS WITH ANNUAL INCOME BELOW 500 YUAN
+Q032
+Q033 bINC>10k   questionnaire PERCENTAGE OF HOUSEHOLDS WITH ANNUAL INCOME ABOVE 10,000 YUAN
+Q033
+Q034 cINCOME89  questionnaire HOUSEHOLD INCOME FOR 1989 (Yuan)
+Q034
+Q035 cINCOME83  questionnaire HOUSEHOLD INCOME FOR 1983 (Yuan, 1989 value)
+Q035
+Q036 cINCOME78  questionnaire HOUSEHOLD INCOME FOR 1978 (Yuan, 1989 value)
+Q036
+Q037 cAGINC89   questionnaire HOUSEHOLD AGRICULTURAL INCOME FOR 1989 (Yuan)
+Q037
+Q038 cNONAG89   questionnaire HOUSEHOLD NON-AGRICULTURAL INCOME FOR 1989 (Yuan)
+Q038
+Q039 cSUPINC89  questionnaire HOUSEHOLD SIDELINE AND BUSINESS INCOME FOR 1989 (Yuan)
+Q039
+Q040 c%INCALC   questionnaire PERCENTAGE OF 1989 HOUSEHOLD INCOME SPENT ON ALCOHOL
+Q040
+Q041 c%INCCLTH  questionnaire PERCENTAGE OF 1989 HOUSEHOLD INCOME SPENT ON CLOTHING
+Q041
+Q042 c%INCSMOK  questionnaire PERCENTAGE OF 1989 HOUSEHOLD INCOME SPENT ON SMOKING
+Q042
+Q043 bRADIO/HH  questionnaire PERCENTAGE OF HOUSEHOLDS THAT OWN A RADIO
+Q043
+Q044 c%OWNTV    questionnaire PERCENTAGE OF HOUSEHOLDS THAT OWN A TELEVISION
+Q044
+Q045 c%FRIDGE   questionnaire PERCENTAGE OF HOUSEHOLDS THAT OWN A FRIDGE
+Q045
+Q046 c%HSCMBR   questionnaire PERCENTAGE OF HOUSEHOLDS WITH HOUSE BUILT FROM CEMENT OR BRICKS
+Q046
+Q047 c%FLCMBR   questionnaire PERCENTAGE OF HOUSEHOLDS WITH FLOOR BUILT FROM CEMENT OR BRICKS
+Q047
+Q048 c%HFCMBR   questionnaire PERCENTAGE OF HOUSEHOLDS WITH HOUSE AND FLOOR BUILT FROM CEMENT OR BRICKS
+Q048
+Q049 c%KITCHEN  questionnaire PERCENTAGE OF HOUSEHOLDS WITH KITCHEN INSIDE HOUSE
+Q049
+Q050 c%H2OPIPE  questionnaire PERCENTAGE OF HOUSEHOLDS USING PIPED WATER SUPPLY
+Q050
+Q051 c%FLUSHWC  questionnaire PERCENTAGE OF HOUSEHOLDS USING FLUSH TOILET
+Q051
+Q052 c%TOILET   questionnaire PERCENTAGE OF HOUSEHOLDS WITH TOILET IN HOME (FLUSH OR NON-FLUSH)
+Q052
+Q053 dGASKID    questionnaire PERCENTAGE USED MAINLY GAS FOR COOKING IN CHILDHOOD
+Q053
+Q054 dCLBRKID   questionnaire PERCENTAGE USED MAINLY COAL BRICKS FOR COOKING IN CHILDHOOD
+Q054
+Q055 dNSCLKID   questionnaire PERCENTAGE USED MAINLY SMOKELESS COAL FOR COOKING IN CHILDHOOD
+Q055
+Q056 dSMCLKID   questionnaire PERCENTAGE USED MAINLY SMOKY COAL FOR COOKING IN CHILDHOOD
+Q056
+Q057 dCOALKID   questionnaire PERCENTAGE USED MAINLY COAL BRICKS OR SMOKELESS OR SMOKY COAL FOR COOKING IN CHILDHOOD
+Q057
+Q058 dWOODKID   questionnaire PERCENTAGE USED MAINLY WOOD/STALKS FOR COOKING IN CHILDHOOD
+Q058
+Q059 dOTHFKID   questionnaire PERCENTAGE USED MAINLY OTHER FUEL FOR COOKING IN CHILDHOOD
+Q059
+Q060 dGASNOW    questionnaire PERCENTAGE USE MAINLY GAS FOR COOKING NOW
+Q060
+Q061 dCLBRNOW   questionnaire PERCENTAGE USE MAINLY COAL BRICKS FOR COOKING NOW
+Q061
+Q062 dNSCLNOW   questionnaire PERCENTAGE USE MAINLY SMOKELESS COAL FOR COOKING NOW
+Q062
+Q063 dSMCLNOW   questionnaire PERCENTAGE USE MAINLY SMOKY COAL FOR COOKING NOW
+Q063
+Q064 dCOALNOW   questionnaire PERCENTAGE USED MAINLY COAL BRICKS OR SMOKELESS OR SMOKY COAL FOR COOKING NOW
+Q064
+Q065 dWOODNOW   questionnaire PERCENTAGE USE MAINLY WOOD/STALKS FOR COOKING NOW
+Q065
+Q066 dOTHFNOW   questionnaire PERCENTAGE USE MAINLY OTHER FUEL FOR COOKING NOW
+Q066
+Q067 dCOOKm     questionnaire TIME MALES SPEND COOKING (hours/day)
+Q067
+Q068 dCOOKf     questionnaire TIME FEMALES SPEND COOKING (hours/day)
+Q068
+Q069 dUNVENT    questionnaire PERCENTAGE WITH UNVENTED STOVE IN HOUSEHOLD
+Q069
+Q070 aAGRICUL   questionnaire PER CAPITA AGRICULTURAL PRODUCTION (Yuan)
+Q070
+Q071 aINDUSTRY  questionnaire PER CAPITA INDUSTRIAL PRODUCTION (Yuan)
+Q071
+Q072 cMULAND    questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD (mu)
+Q072
+Q073 cMUCASH    questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD USED FOR CASH CROPS (mu)
+Q073
+Q074 c%MUCASH   questionnaire PERCENTAGE OF CULTIVATED LAND PER HOUSEHOLD USED FOR CASH CROPS
+Q074
+Q075 cMUVEG     questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD USED FOR VEGETABLES (mu)
+Q075
+Q076 cMUCOTTON  questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD USED FOR COTTON (mu)
+Q076
+Q077 cMUTOBAC   questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD USED FOR TOBACCO (mu)
+Q077
+Q078 cMUFRUIT   questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD USED FOR FRUIT (mu)
+Q078
+Q079 cMUOIL     questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD USED FOR VEGETABLE OIL (mu)
+Q079
+Q080 cMUOTHER   questionnaire AREA OF CULTIVATED LAND PER HOUSEHOLD USED FOR OTHER CASH CROPS (mu)
+Q080
+Q081 bFARMEQP   questionnaire QUANTITY OF HEAVY FARM EQUIPMENT (per household)
+Q081
+Q082 c%OWNPIG   questionnaire PERCENTAGE OF HOUSEHOLDS THAT REAR PIGS
+Q082
+Q083 bPIGS      questionnaire NUMBER OF PIGS (per household)
+Q083
+Q084 c%POULTRY  questionnaire PERCENTAGE OF HOUSEHOLDS THAT REAR POULTRY
+Q084
+Q085 aMARKETS   questionnaire NUMBER OF MARKETS IN XIANG
+Q085
+Q086 bCITYKM    questionnaire DISTANCE FROM VILLAGE TO NEAREST CITY (km)
+Q086
+Q087 aHOSPBED   questionnaire NUMBER OF HOSPITAL BEDS (per 10,000 pop)
+Q087
+Q088 aDOCTORS   questionnaire NUMBER OF DOCTORS WITH OFFICES PER 10,000 POPULATION
+Q088
+Q089 dAGE       questionnaire AGE AT INTERVIEW (years)
+Q089
+Q090 dHEIGHT    questionnaire HEIGHT (cm.)
+Q090
+Q091 dWEIGHT    questionnaire WEIGHT (kg.)
+Q091
+Q092 dBMI       questionnaire BODY MASS INDEX (kg/m**2)
+Q092
+Q093 dPEPULCER  questionnaire PERCENTAGE WITH HISTORY OF PEPTIC ULCER DIAGNOSIS
+Q093
+Q094 dHEPATIT   questionnaire PERCENTAGE WITH HISTORY OF HEPATITIS DIAGNOSIS
+Q094
+Q095 dSCHISTO   questionnaire PERCENTAGE WITH HISTORY OF SCHISTOSOMIASIS DIAGNOSIS
+Q095
+Q096 dMALARIA   questionnaire PERCENTAGE WITH HISTORY OF MALARIA DIAGNOSIS
+Q096
+Q097 dARTHRIT   questionnaire PERCENTAGE WITH HISTORY OF ARTHRITIS DIAGNOSIS
+Q097
+Q098 dTHYROID   questionnaire PERCENTAGE WITH ABNORMAL THYROID GLAND
+Q098
+Q099 dBRTHFAST  questionnaire PERCENTAGE WHO SUFFER BREATHLESSNESS WHEN HURRYING OR WALKING UPHILL
+Q099
+Q100 dBRTHLEV   questionnaire PERCENTAGE WHO SUFFER BREATHLESSNESS WHEN WALKING WITH OTHERS ON LEVEL GROUND
+Q100
+Q101 dBRTHOWN   questionnaire PERCENTAGE WHO SUFFER BREATHLESSNESS WHEN WALKING AT OWN PACE ON LEVEL GROUND
+Q101
+Q102 dPHLEGMw   questionnaire PERCENTAGE WHO COUGH UP PHLEGM MOST MORNINGS IN WINTER
+Q102
+Q103 dPHLEGMs   questionnaire PERCENTAGE WHO COUGH UP PHLEGM MOST MORNINGS IN SUMMER
+Q103
+Q104 dPHLEGM    questionnaire PERCENTAGE WHO COUGH UP PHLEGM FOR 3 OR MORE CONSECUTIVE MONTHS EACH YEAR
+Q104
+Q105 dPHLEGMyr  questionnaire NUMBER OF YEARS TROUBLED BY PHLEGM (years)
+Q105
+Q106 dWHEEZE    questionnaire PERCENTAGE WHOSE CHEST OFTEN SOUNDS WHEEZY
+Q106
+Q107 dWHZBRTH   questionnaire PERCENTAGE EVER HAD AN ATTACK OF WHEEZING CAUSING BREATHLESSNESS
+Q107
+Q108 dSBP       questionniare SYSTOLIC BLOOD PRESSURE (mm Hg)
+Q108
+Q109 dDBP       questionnaire DIASTOLIC BLOOD PRESSURE (mm Hg)
+Q109
+Q110 dMIDBP     questionnaire MID BLOOD PRESSURE (SBP+DBP)/2 (mm Hg)
+Q110
+Q111 dFEV1adj   questionnaire FORCED EXPIRATORY VOLUME IN THE FIRST SECOND (L)
+Q111                          (adjusted for age and height)
+Q112 dFVCadj    questionnaire FORCED VITAL CAPACITY (L) (adjusted for age and height)
+Q112
+Q113 dMMEFadj   questionnaire MID-MAXIMAL EXPIRATORY FLOW (L/second) (adjusted for age and height)
+Q113
+Q114 dFEV1      questionnaire FORCED EXPIRATORY VOLUME IN THE FIRST SECOND (L) (unadjusted)
+Q114
+Q115 dFVC       questionnaire FORCED VITAL CAPACITY (L)  (unadjusted)
+Q115
+Q116 dMMEF      questionnaire MID-MAXIMAL EXPIRATORY FLOW (L/second) (unadjusted)
+Q116
+Q117 dDIARRH    questionnaire TIMES SUFFERED FROM DIARRHOEA DURING PREVIOUS YEAR
+Q117
+Q118 dBRONCH    questionnaire TIMES SUFFERED FROM BRONCHITIS DURING PAST YEAR
+Q118
+Q119 dCHINAMED  questionnaire PERCENTAGE USED CHINESE MEDICINE REGULARLY DURING PAST 6 MONTHS
+Q119
+Q120 dWESTMED   questionnaire PERCENTAGE USED WESTERN MEDICINE REGULARLY DURING PAST 6 MONTHS
+Q120
+Q121 dANTIBIOT  questionnaire PERCENTAGE USED MAINLY WESTERN ANTIBIOTICS DURING PAST 6 MONTHS
+Q121
+Q122 dANTACID   questionnaire PERCENTAGE USED MAINLY WESTERN ANTACIDS DURING PAST 6 MONTHS
+Q122
+Q123 dANALGES   questionnaire PERCENTAGE USED MAINLY WESTERN ANALGESICS DURING PAST 6 MONTHS
+Q123
+Q124 dFAMINE    questionnaire PERCENTAGE EXPERIENCED SEVERE FOOD SHORTAGES DURING THE LAST 30 YEARS
+Q124
+Q125 dFAMINDUR  questionnaire TOTAL DURATION OF SEVERE FOOD SHORTAGES DURING THE LAST 30 YEARS (months)
+Q125
+Q126 dWTLOSS    questionnaire PERCENTAGE WHO LOST WEIGHT DURING FOOD SHORTAGE
+Q126
+Q127 dFAMINILL  questionnaire PERCENTAGE WHO SUFFERED ILLNESS AS A RESULT OF FOOD SHORTAGE
+Q127
+Q128 dSMOKE     questionnaire PERCENTAGE WHO HAVE EVER SMOKED ANY FORM OF TOBACCO DAILY FOR MORE THAN 6 MONTHS
+Q128
+Q129 dSMOKENOW  questionnaire PERCENTAGE WHO CURRENTLY SMOKE (and have done so daily for more than 6 months)
+Q129
+Q130 dSMOKNOWm  questionnaire PERCENTAGE OF MALES WHO CURRENTLY SMOKE (and have done so daily for more than 6 months)
+Q130
+Q131 dSMOKNOWf  questionnaire PERCENTAGE OF FEMALES WHO CURRENTLY SMOKE (and have done so daily for more than 6 months)
+Q131
+Q132 dSMOKAGEm  questionnaire AGE MALE SMOKERS STARTED SMOKING (years)
+Q132
+Q133 dSMOKAGEf  questionnaire AGE FEMALE SMOKERS STARTED SMOKING (years)
+Q133
+Q134 dSMOK<25m  questionnaire PERCENT OF TOTAL MALE POPULATION WHO STARTED SMOKING BEFORE AGE 25 AND WHO CURRENTLY SMOKE
+Q134
+Q135 dSMOK<25f  questionnaire PERCENT OF TOTAL FEMALE POPULATION WHO STARTED SMOKING BEFORE AGE 25 AND WHO CURRENTLY SMOKE
+Q135
+Q136 dMFCTCIG   questionnaire PERCENTAGE WHO HAVE EVER SMOKED MANUFACTURED CIGARETTES DAILY FOR MORE THAN 6 MONTHS
+Q136
+Q137 dCIGCONS   questionnaire CURRENT DAILY CONSUMPTION OF MANUFACTURED CIGARETTES (no. per person)
+Q137
+Q138 dCIGCONSm  questionnaire CURRENT DAILY CONSUMPTION OF MANUFACTURED CIGARETTES IN MALES (no. per man)
+Q138
+Q139 dCIGCONSf  questionnaire CURRENT DAILY CONSUMPTION OF MANUFACTURED CIGARETTES IN FEMALES (no. per woman)
+Q139
+Q140 dTOBCONS   questionnaire CURRENT DAILY CONSUMPTION OF "OTHER" TOBACCO (EXCLUDING MANUFACTURED CIGARETTES)
+Q140                          (g per person)
+Q141 dTOTTOBAC  questionnaire TOTAL CURRENT DAILY CONSUMPTION OF TOBACCO (g per person)
+Q141
+Q142 dTOBCONSm  questionnaire CURRENT DAILY CONSUMPTION OF "OTHER" TOBACCO (EXCLUDING MANUFACTURED CIGARETTES)
+Q142                          BY MALES (g per man)
+Q143 dTOBCONSf  questionnaire CURRENT DAILY CONSUMPTION OF "OTHER" TOBACCO (EXCLUDING MANUFACTURED CIGARETTES)
+Q143                          BY FEMALES (g per woman)
+Q144 dHOMECIG   questionnaire PERCENTAGE WHO HAVE EVER SMOKED HOMEMADE CIGARETTES DAILY FOR MORE THAN 6 MONTHS
+Q144
+Q145 dPIPE      questionnaire PERCENTAGE WHO HAVE EVER SMOKED A PIPE DAILY FOR MORE THAN 6 MONTHS
+Q145
+Q146 dH2OPIPE   questionnaire PERCENTAGE WHO HAVE EVER SMOKED A WATER PIPE DAILY FOR MORE THAN 6 MONTHS
+Q146
+Q147 dCIGAR     questionnaire PERCENTAGE WHO HAVE EVER SMOKED CIGARS DAILY FOR MORE THAN 6 MONTHS
+Q147
+Q148 dSNUFF     questionnaire PERCENTAGE WHO HAVE EVER USED SNUFF DAILY FOR MORE THAN 6 MONTHS
+Q148
+Q149 dALCEVER   questionnaire PERCENTAGE EVER DRUNK ALCOHOL 3 OR MORE DAYS A WEEK FOR MORE THAN 6 MONTHS
+Q149
+Q150 dBEER      questionnaire PERCENTAGE WHO HAVE EVER DRUNK BEER 3 OR MORE DAYS A WEEK FOR 6 MONTHS
+Q150
+Q151 dBEERday   questionnaire CURRENT DAILY CONSUMPTION OF BEER (g per person)
+Q151
+Q152 dWINE      questionnaire PERCENTAGE WHO HAVE EVER DRUNK WINE 3 OR MORE DAYS A WEEK FOR 6 MONTHS
+Q152
+Q153 dWINEday   questionnaire CURRENT DAILY CONSUMPTION OF WINE (g per person)
+Q153
+Q154 dLIQUOR    questionnaire PERCENTAGE WHO HAVE EVER DRUNK LIQUOR 3 OR MORE DAYS A WEEK FOR 6 MONTHS
+Q154
+Q155 dLIQRday   questionnaire CURRENT DAILY CONSUMPTION OF LIQUOR (g per person)
+Q155
+Q156 dALCOday   questionnaire TOTAL CURRENT DAILY CONSUMPTION OF ALCOHOL (g per person)
+Q156
+Q157 dRICE      questionnaire DAILY CONSUMPTION OF RICE (g/day air-dry basis)
+Q157
+Q158 dWHEAT     questionnaire DAILY CONSUMPTION OF WHEAT (g/day air-dry basis)
+Q158
+Q159 dMAIZE     questionnaire DAILY CONSUMPTION OF MAIZE (g/day air-dry basis)
+Q159
+Q160 dSORGHUM   questionnaire DAILY CONSUMPTION OF SORGHUM (g/day air-dry basis)
+Q160
+Q161 dMILLET    questionnaire DAILY CONSUMPTION OF MILLET (g/day air-dry basis)
+Q161
+Q162 dLEGUME    questionnaire DAILY CONSUMPTION OF LEGUMES (mostly soya beans) (g/day air-dry basis)
+Q162
+Q163 dSWEETPOT  questionnaire DAILY CONSUMPTION OF FRESH AND DRIED SWEET POTATOES (g/day fresh weight)
+Q163
+Q164 dOILFAT    questionnaire DAILY CONSUMPTION OF OIL AND FAT (g/day)
+Q164
+Q165 dSMOKFOOD  questionnaire PERCENTAGE EVER EAT SMOKED FOOD
+Q165
+Q166 dSALTFISH  questionnaire PERCENTAGE EVER EAT SALTED FISH
+Q166
+Q167 dSALTFKID  questionnaire PERCENTAGE ATE SALTED FISH IN CHILDHOOD
+Q167
+Q168 dANIMFAT   questionnaire DAILY CONSUMPTION OF ANIMAL FAT (g/day)
+Q168
+Q169 dVEGFAT    questionnaire DAILY CONSUMPTION OF VEGETABLE FAT (g/day)
+Q169
+Q170 dLEGUMyr   questionnaire DAYS PER YEAR EAT LEGUMES AND LEGUME PRODUCTS
+Q170
+Q171 dSALTVEG   questionnaire DAYS PER YEAR EAT SALT PRESERVED VEGETABLES
+Q171
+Q172 dGRNVEG    questionnaire DAYS PER YEAR EAT GREEN VEGETABLES
+Q172
+Q173 dFRUIT     questionnaire DAYS PER YEAR EAT FRUIT
+Q173
+Q174 dFISH      questionnaire DAYS PER YEAR EAT FISH
+Q174
+Q175 dMEAT      questionnaire DAYS PER YEAR EAT MEAT
+Q175
+Q176 dEGGS      questionnaire DAYS PER YEAR EAT EGGS
+Q176
+Q177 dMILK      questionnaire DAYS PER YEAR CONSUME MILK OR DAIRY PRODUCTS
+Q177
+Q178 dJASMIN-T  questionnaire PERCENT DRINK JASMINE TEA DAILY
+Q178
+Q179 dGREEN-T   questionnaire PERCENT DRINK GREEN TEA DAILY
+Q179
+Q180 dGREENTEA  questionnaire PERCENT DRINK JASMINE OR GREEN TEA DAILY
+Q180
+Q181 dBLACK-T   questionnaire PERCENT DRINK BLACK TEA DAILY
+Q181
+Q182 dOOLONG-T  questionnaire PERCENT DRINK OOLONG TEA DAILY
+Q182
+Q183 dBRICK-T   questionnaire PERCENT DRINK BRICK TEA DAILY
+Q183
+Q184 dBLACKTEA  questionnaire PERCENT DRINK BLACK, OOLONG OR BRICK TEA DAILY
+Q184
+Q185 dAGEMENS   questionnaire AGE STARTED MENSTRUATION (years)
+Q185
+Q186 dMENCYCLE  questionnaire LENGTH OF MENSTRUAL CYCLE (days)
+Q186
+Q187 dBLEED     questionnaire DURATION OF BLEEDING DURING MENSTRUAL CYCLE (days)
+Q187
+Q188 dAGEMENOP  questionnaire ESTIMATED MEDIAN AGE AT MENOPAUSE (years)
+Q188
+Q189 dPREG1st   questionnaire AGE AT FIRST PREGNANCY (years)
+Q189
+Q190 dTOTPREG   questionnaire NUMBER OF PREGNANCIES (per woman)
+Q190
+Q191 dDEADBRTH  questionnaire NUMBER OF FAILED PREGNANCIES (per woman)
+Q191
+Q192 dLIVEBRTH  questionnaire NUMBER OF LIVEBIRTHS (per woman)
+Q192
+Q193 eTOTPREG   questionnaire NUMBER OF PREGNANCIES (per woman giving birth in 1987-9)
+Q193                          (including 1987-9 pregnancies)
+Q194 eLIVEBRTH  questionnaire NUMBER OF LIVEBIRTHS (per woman giving birth in 1987-9)
+Q194                          (including 1987-9 livebirths)
+Q195 eMOTHERS   questionnaire 1987-9 BIRTHS: NUMBER OF MOTHERS GIVING BIRTH DURING 1987-1989
+Q195
+Q196 eM/F       questionnaire 1987-9 BIRTHS: MALE/FEMALE RATIO
+Q196
+Q197 eMUMAGE    questionnaire 1987-9 BIRTHS: AGE OF MOTHER (years)
+Q197
+Q198 eSTERILIS  questionnaire 1987-9 BIRTHS: PERCENT OF COUPLES STERILISED
+Q198
+Q199 eANTENATL  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO SAW DOCTOR/MIDWIFE FOR ANTE-NATAL CARE
+Q199
+Q200 eDOC1st    questionnaire 1987-9 BIRTHS: MONTHS BEFORE DELIVERY WHEN FIRST SAW DOCTOR/MIDWIFE
+Q200                          FOR ANTE-NATAL CARE (months)
+Q201 eDOCVIS    questionnaire 1987-9 BIRTHS: NUMBER OF ANTE-NATAL CONSULTATIONS WITH DOCTOR/MIDWIFE
+Q201
+Q202 eTETNSIMM  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS RECEIVING TETANUS TOXOID IMMMUNISATION BEFORE DELIVERY
+Q202
+Q203 eWORKPREG  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO WORKED DURING PREGNANCY
+Q203
+Q204 eSTOPWORK  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO STOPPPED WORK DURING PREGNANCY
+Q204
+Q205 eHRSWORK   questionnaire 1987-9 BIRTHS: HOURS WORKED DURING PREGNANCY (hours/week)
+Q205
+Q206 eFARMER    questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHOSE PRIMARY OCCUPATION IS FARMING
+Q206
+Q207 eHOUSWORK  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHOSE PRIMARY OCCUPATION IS HOUSEWORK
+Q207
+Q208 eBORNHOSP  questionnaire 1987-9 BIRTHS: PERCENT OF BABIES BORN IN HOSPITAL/CLINIC
+Q208
+Q209 eBIRTHWT   questionnaire 1987-9 BIRTHS: BIRTH WEIGHT (Kg)
+Q209
+Q210 eTBIMM     questionnaire 1987-9 BIRTHS: PERCENT OF NEWBORN BABIES RECEIVING TB IMMUNISATION
+Q210
+Q211 eDPT1st    questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 3 MONTHS OR MORE) RECEIVING FIRST DPT IMMUNISATION
+Q211
+Q212 eDPT2nd    questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 4 MONTHS OR MORE) RECEIVING SECOND DPT IMMUNISATION
+Q212
+Q213 eDPT3rd    questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 5 MONTHS OR MORE) RECEIVING THIRD DPT IMMUNISATION
+Q213
+Q214 ePOLIO1    questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 2 MONTHS OR MORE) RECEIVING FIRST POLIO IMMUNISATION
+Q214
+Q215 ePOLIO2    questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 3 MONTHS OR MORE) RECEIVING SECOND POLIO IMMUNISATION
+Q215
+Q216 ePOLIO3    questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 4 MONTHS OR MORE) RECEIVING THIRD POLIO IMMUNISATION
+Q216
+Q217 eMEASLES   questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 8 MONTHS OR MORE) RECEIVING MEASLES IMMUNISATION
+Q217
+Q218 eHBV1st    questionnaire 1987-9 BIRTHS: PERCENT OF NEWBORN BABIES RECEIVING FIRST HBV IMMUNISATION
+Q218
+Q219 eHBV2nd    questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 3 WEEKS OR MORE) RECEIVING SECOND HBV IMMUNISATION
+Q219
+Q220 eFULLIMM   questionnaire 1987-9 BIRTHS: PERCENT OF BABIES (AGED 8 MONTHS OR MORE) RECEIVING COMPLETE IMMUNISATION
+Q220                          (TB, measles, third polio and third DPT)
+Q221 eBREASTFD  questionnaire 1987-9 BIRTHS: PERCENT OF BABIES WHO WERE BREAST FED
+Q221
+Q222 eMILKSUB   questionnaire 1987-9 BIRTHS: PERCENT OF BABIES WHO WERE FED MILK SUBSTITUTE
+Q222
+Q223 eANIMMILK  questionnaire 1987-9 BIRTHS: PERCENT OF BABIES WHO WERE FED COW/GOAT MILK
+Q223
+Q224 eBOTTLEFD  questionnaire 1987-9 BIRTHS: PERCENT OF BABIES FED BY BOTTLE
+Q224
+Q225 eBOILBOTL  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO CLEAN BOTTLE WITH BOILING WATER
+Q225
+Q226 eSUPPLEM   questionnaire 1987-9 BIRTHS: PERCENT OF BABIES FED SOLID SUPPLEMENT
+Q226
+Q227 e%DIARRH   questionnaire 1987-9 BIRTHS: PERCENT OF CHILDREN SUFFERING FROM DIARRHOEA DURING LAST 3 MONTHS
+Q227
+Q228 eDIARRH    questionnaire 1987-9 BIRTHS: NUMBER OF DAYS IN LAST 3 MONTHS CHILD SUFFERED FROM DIARRHOEA
+Q228
+Q229 e%RESP     questionnaire 1987-9 BIRTHS: PERCENT OF CHILDREN SUFFERING FROM RESPIRATORY TRACT INFECTION
+Q229                          DURING LAST 3 MONTHS
+Q230 eRESPINF   questionnaire 1987-9 BIRTHS: NUMBER OF DAYS IN LAST 3 MONTHS CHILD SUFFERED
+Q230                                         FROM RESPIRATORY TRACT INFECTION
+Q231 e%FEVER    questionnaire 1987-9 BIRTHS: PERCENT OF CHILDREN SUFFERING FROM FEVER DURING LAST 3 MONTHS
+Q231
+Q232 eFEVER     questionnaire 1987-9 BIRTHS: NUMBER OF DAYS IN LAST 3 MONTHS CHILD SUFFERED FROM FEVER
+Q232
+Q233 eLICE      questionnaire 1987-9 BIRTHS: PERCENT OF CHILDREN SUFFERING FROM LICE DURING LAST 3 MONTHS
+Q233
+Q234 eWORMS     questionnaire 1987-9 BIRTHS: PERCENT OF CHILDREN SUFFERING FROM WORMS
+Q234
+Q235 eSCRATCH   questionnaire 1987-9 BIRTHS: PERCENT OF CHILDREN SCRATCHING, SUGGESTING PARASITOSIS
+Q235
+Q236 eFLUID     questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO WOULD GIVE FLUIDS TO A CHILD WITH SEVERE DIARRHOEA
+Q236
+Q237 eSOLID     questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO WOULD FEED SOLIDS TO A CHILD WITH SEVERE DIARRHOEA
+Q237
+Q238 eTRADMED   questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO WOULD GIVE LOCAL TRADITIONAL MEDICINE
+Q238                          TO A CHILD WITH SEVERE DIARRHOEA
+Q239 eDOCTOR    questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO WOULD TAKE A CHILD WITH SEVERE DIARRHOEA TO A DOCTOR
+Q239
+Q240 eGOODFOOD  questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO CLAIM TO KNOW WHICH FOODS ARE ESPECIALLY GOOD
+Q240                          FOR WEANING A BREAST-FED BABY
+Q241 eBADFOOD   questionnaire 1987-9 BIRTHS: PERCENT OF MOTHERS WHO CLAIM TO KNOW WHICH FOODS ARE ESPECIALLY BAD
+Q241                          FOR WEANING A BREAST-FED BABY
+Q242 fWT        questionnaire WEIGHT OF SCHOOLCHILDREN (kg)
+Q242
+Q243 fWTadj     questionnaire WEIGHT OF SCHOOLCHILDREN RELATIVE TO AGE-ADJUSTED MEAN
+Q243
+Q244 fHT        questionnaire HEIGHT OF SCHOOLCHILDREN (m)
+Q244
+Q245 fHTadj     questionnaire HEIGHT OF SCHOOLCHILDREN RELATIVE TO AGE-ADJUSTED MEAN
+Q245
+Q246 fBMI       questionnaire WEIGHT/HEIGHT**2 OF SCHOOLCHILDREN (kg/m**2)
+Q246
+Q247 fBMIadj    questionnaire WEIGHT/HEIGHT**2 OF SCHOOLCHILDREN RELATIVE TO AGE-ADJUSTED MEAN
+Q247
