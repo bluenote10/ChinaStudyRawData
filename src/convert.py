@@ -6,6 +6,7 @@ import pandas as pd
 import os
 import glob
 
+from collections import OrderedDict
 from functools import reduce
 
 DATASETS = [
@@ -22,31 +23,52 @@ def get_data_path(*subpaths):
     )
 
 
-def parse_column_names_descriptions():
-    # This file format is silly...
-    column_names = dict()
-    column_descs = dict()
+class ColNames(object):
+    def __init__(self):
 
-    col_names_file = os.path.join(get_data_path("original_data"), "CHNAME.TXT")
-    lines = open(col_names_file).readlines()
-    lines_odd = lines[::2]
-    lines_even = lines[1::2]
+        # This file format is silly...
+        self.orig_names = OrderedDict()
+        self.nice_names = OrderedDict()
+        self.descriptions = OrderedDict()
 
-    lines = [
-        (line_even + line_odd[4:].strip()).replace("\n", "")
-        for line_even, line_odd in zip(lines_odd, lines_even)
-    ]
+        col_names_file = os.path.join(get_data_path("original_data"), "CHNAME.TXT")
+        lines = open(col_names_file).readlines()
+        lines_odd = lines[::2]
+        lines_even = lines[1::2]
 
-    for line in lines:
-        fields = line.split()
-        if len(fields) > 1:
-            column_code = fields[0]
-            column_name = fields[1]
-            column_desc = " ".join(fields[2:])
-            column_names[column_code] = column_name
-            column_descs[column_code] = column_desc
+        lines = [
+            (line_even + line_odd[4:].strip()).replace("\n", "")
+            for line_even, line_odd in zip(lines_odd, lines_even)
+        ]
 
-    return column_names, column_descs
+        for line in lines:
+            fields = line.split()
+            if len(fields) > 1:
+                orig_name = fields[0]
+                nice_name = "{}_{}".format(orig_name[0], fields[1])
+                description = " ".join(fields[2:])
+                if orig_name in self.nice_names:
+                    raise ValueError("Column name alread exists: {}".format(orig_name))
+                if nice_name in self.orig_names:
+                    raise ValueError("Column name alread exists: {}".format(nice_name))
+                self.nice_names[orig_name] = nice_name
+                self.orig_names[nice_name] = orig_name
+                self.descriptions[nice_name] = description
+
+    def get_nice_name(self, orig_name):
+        return self.nice_names[orig_name]
+
+    def get_orig_name(self, nice_name):
+        return self.orig_names[nice_name]
+
+    def get_description(self, nice_name):
+        return self.descriptions[nice_name]
+
+    def get_orig_names(self):
+        return self.nice_names.keys()
+
+    def get_nice_names(self):
+        return self.orig_names.keys()
 
 
 def convert_column(series):
@@ -57,7 +79,7 @@ def convert_column(series):
 
 
 def extract_dataset(dataset):
-    columns_names, columns_descs = parse_column_names_descriptions()
+    col_names = ColNames()
 
     glob_path = os.path.join(get_data_path("original_data"), "CH{}*.CSV".format(dataset))
 
@@ -76,14 +98,14 @@ def extract_dataset(dataset):
         df.columns = [c.strip() for c in df.columns]
 
         # Verify schema / convert types
-        data_columns = set(columns_names.keys())
+        data_columns = set(col_names.get_orig_names())
         allowed_columns = {"County", "Sex", "Xiang"} | data_columns
         for c in df.columns:
             if c not in allowed_columns:
                 raise ValueError("Unexpected column name '{}'".format(c))
             elif c in data_columns:
                 df[c] = convert_column(df[c])
-                df.rename(columns={c: columns_names[c]}, inplace=True)
+                df.rename(columns={c: col_names.get_nice_name(c)}, inplace=True)
 
         print("Shape: {}".format(df.shape))
         dfs.append(df)
